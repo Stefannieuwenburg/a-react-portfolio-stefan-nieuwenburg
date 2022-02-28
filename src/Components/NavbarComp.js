@@ -6,7 +6,8 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
-import Technologies  from './Technologies';
+import Technologies from './Technologies';
+import Errorpage from './Errorpage';
 
 export default function NavbarComp () {
     return (
@@ -40,19 +41,22 @@ export default function NavbarComp () {
                             <Nav.Link
                                 as={Link}
                                 to="/Technologies"
-                                style={{ fontSize: "20px" }}>
+                                style={{ fontSize: "20px" }}
+                            >
                                 Technologies
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
                                 to="/projects"
-                                style={{ fontSize: "20px" }}>
+                                style={{ fontSize: "20px" }}
+                            >
                                 Projects
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
                                 to="/contact"
-                                style={{ fontSize: "20px" }}>
+                                style={{ fontSize: "20px" }}
+                            >
                                 Contact
                             </Nav.Link>
                         </Nav>
@@ -67,6 +71,8 @@ export default function NavbarComp () {
                     <Route path="/Projects" element={<Projects />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/Home" element={<Home />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="*" element={<Errorpage />} />
                 </Routes>
             </div>
         </BrowserRouter>

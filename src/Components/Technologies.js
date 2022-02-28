@@ -38,7 +38,7 @@ export default function Technologies() {
             </div>
             <div>
                 <FaTools />
-                <p>UI-UX</p>
+                <p>Tools</p>
                 Experience with
                 <br />
                 Figma
