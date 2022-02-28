@@ -14,7 +14,7 @@ export default function About() {
                 en Redux-toolkit.
             </p>
             <p>
-                    In mijn vrije tijd houd ik er ook erg van om me zelf nog
+                    In mijn vrije tijd hou ik er ook erg van om me zelf nog
                     meer te ontwikkelen.
             </p>
             <p>
@@ -23,8 +23,8 @@ export default function About() {
                     gebruiken
                 </p>
                 <p>
-                        het liefst werk ik in klein team verband, zo kan je veel
-                        en snel van elkaar leren.
+                        het liefst werk ik in een klein team verband, zo kan je veel
+                       veel en snel van elkaar leren.
                </p>
                 <p>
                     ook vind ik het erg leuk om in de nieuwen technieken te
