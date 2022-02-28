@@ -1,0 +1,89 @@
+.works {
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #282c34;
+}
+
+@media (min-width: 50em) {
+  .work__section {
+    padding: 15px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+.cards {
+  position: relative;
+  cursor: pointer;
+  border: 3px solid #4d4a4a;
+}
+
+.cards img {
+  height: 100%;
+}
+
+.cards button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: transparent;
+  border-radius: 50px;
+  padding: 20px 20px;
+  color: #8a8a8a;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.cards button:hover {
+  background: #7e7c7c;
+  color: #f8d300;
+}
+
+.cards:hover button {
+  opacity: 1;
+  -webkit-transition: 450ms;
+  transition: 450ms;
+}
+
+.cards:hover img {
+  opacity: .6;
+}
+
+@media (max-width: 800px) {
+  .work__section {
+    padding: 12px;
+    display: -ms-grid;
+    display: grid;
+    gap: 1.335rem;
+  }
+  .work__section .cards {
+    padding: 15px;
+  }
+}
+
+button {
+  color: #f8d300;
+  background: none;
+  border: 3px solid #f8d300;
+  padding: 5px 30px;
+  border-radius: 60px;
+}
+
+img, picture {
+  max-width: 100%;
+}
+/*# sourceMappingURL=Projects.css.map */
