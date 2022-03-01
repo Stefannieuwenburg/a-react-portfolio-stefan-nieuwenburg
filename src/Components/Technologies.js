@@ -17,34 +17,51 @@ export default function Technologies() {
             <div>
                 <FaReact />
                 <p>Front-End</p>
-                Experience with
-                <br /> Html 5
-                <br /> Css
-                <br /> Scss
-                <br /> Bootstrap
-                <br /> React.js
-                <br /> Github
+                Experience with:
+                <br />
+                <br />Html 5
+                <br />Css
+                <br />Scss
+                <br />Bootstrap
+                <br />React.js
+                <br />Redux
+                <br />Github
+                <br />Node.js
+                <br />Npm
+                <br />API
+                <br />Scrum
+                <br />Jest
             </div>
             <div>
                 <FaDatabase />
                 <p>Back-End</p>
-                Experience with
+                Experience with:
                 <br />
                 Sqlite
-                <br /> Database
-                <br /> Django
-                <br /> Flask
-                <br /> Python
+                <br />SQL Database
+                <br />ORM
+                <br />Django
+                <br />Flask
+                <br />Python
+                <br />VPS
+                <br />APT
+                <br />WSGI and Gunicorn
             </div>
             <div>
                 <FaTools />
                 <p>Tools</p>
-                Experience with
+                Experience with:
+                <br />
+                Github
                 <br />
                 Figma
                 <br />
                 Visual Studio code
                 <br />
+                Slack 
+                <br />
+                POSTman
+                <br/>
             </div>
         </div>
     );
