@@ -15,40 +15,59 @@ export default function Technologies() {
             <br />
 
             <div>
-                <FaReact />
+                <FaReact style={{ color: "blue" }} />
                 <p>Front-End</p>
                 Experience with:
                 <br />
-                <br />Html 5
-                <br />Css
-                <br />Scss
-                <br />Bootstrap
-                <br />React.js
-                <br />Redux
-                <br />Github
-                <br />Node.js
-                <br />Npm
-                <br />API
-                <br />Scrum
-                <br />Jest
+                Html 5
+                <br />
+                Css
+                <br />
+                Scss
+                <br />
+                Bootstrap
+                <br />
+                React.js
+                <br />
+                Redux
+                <br />
+                Github
+                <br />
+                Node.js
+                <br />
+                Npm
+                <br />
+                API
+                <br />
+                Scrum
+                <br />
+                Jest
             </div>
             <div>
-                <FaDatabase />
+                <FaDatabase style={{ color: "green" }} />
                 <p>Back-End</p>
                 Experience with:
                 <br />
                 Sqlite
-                <br />SQL Database
-                <br />ORM
-                <br />Django
-                <br />Flask
-                <br />Python
-                <br />VPS
-                <br />APT
-                <br />WSGI and Gunicorn
+                <br />
+                SQL Database
+                <br />
+                ORM
+                <br />
+                Django
+                <br />
+                Flask
+                <br />
+                Python
+                <br />
+                VPS
+                <br />
+                APT
+                <br />
+                WSGI and Gunicorn
             </div>
             <div>
-                <FaTools />
+                <FaTools style={{ color: "red" }} />
                 <p>Tools</p>
                 Experience with:
                 <br />
@@ -58,10 +77,10 @@ export default function Technologies() {
                 <br />
                 Visual Studio code
                 <br />
-                Slack 
+                Slack
                 <br />
                 POSTman
-                <br/>
+                <br />
             </div>
         </div>
     );

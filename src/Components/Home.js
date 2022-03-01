@@ -17,7 +17,7 @@ export default function Home() {
             </div>
             <br />
             <div className="icons">
-                <a href="https://">
+                <a href="https://www.facebook.com/stefan.nieuwenburg.9/">
                     <FaFacebook
                         style={{ color: "blue", fontSize: "50px" }}
                         onMouseOver={({ target }) =>
@@ -29,7 +29,7 @@ export default function Home() {
                     />
                 </a>
 
-                <a href="https://">
+                <a href="https://github.com/Stefannieuwenburg">
                     <FaGithub
                         style={{ color: "green", fontSize: "50px" }}
                         onMouseOver={({ target }) =>
@@ -41,7 +41,7 @@ export default function Home() {
                     />
                 </a>
 
-                <a href="https://">
+                <a href="https://www.linkedin.com/in/stefan-nieuwenburg-3030a1213/">
                     <FaLinkedin
                         style={{ color: "red", fontSize: "50px" }}
                         onMouseOver={({ target }) =>

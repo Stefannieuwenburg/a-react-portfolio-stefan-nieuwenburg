@@ -7,7 +7,7 @@ export default function Contact() {
             <h1>Here's my Contact info</h1>
 
             <div className="Button-link">
-                <a href="https://">
+                <a href="https://www.facebook.com/stefan.nieuwenburg.9/">
                     <FaFacebook
                         style={{ color: "blue", fontSize: "50px" }}
                         onMouseOver={({ target }) =>
@@ -20,7 +20,7 @@ export default function Contact() {
                     Facebook Profile
                 </a>
                 <br />
-                <a href="https://">
+                <a href="https://github.com/Stefannieuwenburg">
                     <FaGithub
                         style={{ color: "green", fontSize: "50px" }}
                         onMouseOver={({ target }) =>
@@ -33,7 +33,7 @@ export default function Contact() {
                     Github Profile
                 </a>
                 <br />
-                <a href="https://">
+                <a href="https://www.linkedin.com/in/stefan-nieuwenburg-3030a1213/">
                     <FaLinkedin
                         style={{ color: "red", fontSize: "50px" }}
                         onMouseOver={({ target }) =>
